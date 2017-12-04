@@ -1,0 +1,14 @@
+{
+  "name": "travis-project",
+  "version": "0.0.1",
+  "description": "simple travis ci",
+  "main": "hello.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
